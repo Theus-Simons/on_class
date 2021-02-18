@@ -61,4 +61,8 @@ app.get('/video', (req, res) => {
     return res.render('video');
 });
 
+app.get('/prova', (req, res) => {
+    return res.render('prova');
+});
+
 module.exports = app;
